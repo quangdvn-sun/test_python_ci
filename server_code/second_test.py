@@ -1,6 +1,12 @@
 
 
-  def second_test():
-      def second_test_sub():
+  def first_test():
+      def first_test_sub():
          return True
-      return second_test_sub
+      return first_test_sub
+
+
+def second_test():
+      def first_test_sub():
+         return True
+      return first_test_sub
